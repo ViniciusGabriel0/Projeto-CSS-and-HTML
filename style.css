@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   body{
+    height: 5000px;
+   }
+  .top_menu{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+   .name{
+    background-color: green;
+    padding-left: 200px;
+    font-size: 30px;
+    height: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .name img{
+    display: block;
+    margin-top: -48px;
+    padding-left: 320px;
+   }
+   .menu{
+     padding-left: 900px;
+     margin-top: -105px;
+     font-size: 25px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .menu li{
+    display:inline-block;
+   }
+   .menu a{
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: background .40s;
+   }
+   .menu a:hover{
+    background:greenyellow;
+   }
+   .container{
+    font-size: 20px;
+    margin: 10px 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .container h2{
+    font-size: 30px;
+   }
+   .container h1{
+    background-color:cyan;
+   }
+   .container li{
+    list-style: none;
+    font-size: 25px;
+   }
